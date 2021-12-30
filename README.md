@@ -1,2 +1,2 @@
-# Plantilla-EJ1
-Practica haciendo una plantilla de Google
+# Ejercicio de Platzi
+Practica haciendo un clon de Google
