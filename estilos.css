@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER */
+
+header {
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+header nav ul li {
+    padding-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul .menu-icon {
+    margin-top: 20px;
+}
+
+header nav ul .menu-icon .menu-grid {
+    width: 20px;
+}
+
+header nav ul .foto-google .foto-perfil {
+    width: 40px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+/* MAIN */
+main {
+    width: 100%;
+}
+
+main .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+main .buscador {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .buscador button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background: #fff;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+
+main .buscador input {
+    width: 90%;
+    font-size: 20px;
+    border: none;
+}
+
+main .buscador button  .search {
+    width: 20px;
+    margin: auto;
+    color: darkgray;
+}
+
+main .buscador button .microphone {
+    width: 15px;
+    margin: auto;
+    margin-left: 5px;
+}
+
+main .botones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .botones .boton {
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgba(255, 247, 247, 0.8);
+    color: rgb(82, 80, 80);
+    border: none;
+}
+
+main .botones .boton:hover {
+    border: 1px solid rgb(223, 223, 223);
+    cursor: pointer;
+}
+
+main .idioma {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+main .idioma p {
+    color: rgb(54, 53, 53);
+}
+
+main .idioma p a {
+    text-decoration: none;
+}
+
+main .idioma p a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    position: fixed;
+    bottom: 0;
+    z-index: 1030;
+    width: 100%;
+}
+
+footer .pais {
+    width: 100%;
+    background-color: rgba(238, 234, 234, 0.8);
+    padding: 15px 20px;
+    color: rgb(99, 97, 97);
+    border-bottom: 1px solid rgb(182, 179, 179);
+}
+
+footer  {
+    background-color: rgba(238, 234, 234, 0.8);
+}
+
+footer .acerca-de {
+    display: flex;
+    justify-content:flex-start ;
+}
+
+footer .acerca-de a {
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(99, 97, 97);
+}
+
+footer .acerca-de a:hover {
+    text-decoration: underline;
+}
+
+footer .acerca-de .segundo-acerca-de {
+    display: flex;
+    margin-left: auto;
+}
+
+footer .acerca-de .segundo-acerca-de a {
+padding: 15px;
+text-decoration: none;
+color: rgb(99, 97, 97);
+}
+
+footer .acerca-de .segundo-acerca-de a:hover {
+    text-decoration: underline;
+}
